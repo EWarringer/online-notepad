@@ -16,6 +16,21 @@
 
  */
 
-.top-bar, .top-bar>.top-bar-section>.right>li>a {
+.top-bar {
+  padding-top: 25px;
+  height: 100px;
+}
+
+.top-bar, .top-bar>ul>li>h1>a, .top-bar>.top-bar-section>.right>li>a {
   background-color: #e26f1f;
+}
+
+.top-bar>ul>li>h1>a {
+  margin-left: 30px;
+  font-size: 35pt;
+}
+
+.top-bar>.top-bar-section>.right>li>a {
+  margin-right: 30px;
+  font-size: 25pt;
 }
